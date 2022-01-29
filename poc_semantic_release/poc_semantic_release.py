@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
 """Main module template with example functions."""
 
 
-def sum_numbers(number_list):
-    """Example function. Sums a list of numbers using a for loop.
+def sum_numbers(number_list: [int]):
+    """
+    Example function. Sums a list of numbers using a for loop.
 
     Parameters
     ----------
@@ -18,8 +18,8 @@ def sum_numbers(number_list):
     Notes
     -----
     This is NOT good Python, just an example function for tests.
+    
     """
-
     sum_val = 0
     for n in number_list:
         sum_val += n
@@ -27,8 +27,9 @@ def sum_numbers(number_list):
     return sum_val
 
 
-def max_number(number_list):
-    """Example function. Finds max of list of numbers using a for loop.
+def max_number(number_list: [int]):
+    """
+    Example function. Finds max of list of numbers using a for loop.
 
     Parameters
     ----------
@@ -43,8 +44,8 @@ def max_number(number_list):
     Notes
     -----
     Also not good Python.
+    
     """
-
     cur_max = number_list[0]
     for n in number_list[1:]:
         if n > cur_max:
