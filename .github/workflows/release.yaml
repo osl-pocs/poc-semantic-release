@@ -29,7 +29,7 @@ jobs:
           mamba-version: "*"
           environment-file: conda/dev.yaml
           channels: conda-forge,nodefaults
-          activate-environment: poc-dj-stripe
+          activate-environment: semantic-release
           use-mamba: true
           miniforge-variant: Mambaforge
 
