@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Tests for `poc_semantic_release` package."""
 
 import random
@@ -10,7 +9,8 @@ from poc_semantic_release import poc_semantic_release
 
 @pytest.fixture
 def generate_numbers():
-    """Sample pytest fixture. Generates list of random integers.
+    """
+    Sample pytest fixture. Generates list of random integers.
 
     See more at: http://doc.pytest.org/en/latest/fixture.html
     """
@@ -31,9 +31,3 @@ def test_max_number(generate_numbers):
     our_result = poc_semantic_release.max_number(generate_numbers)
     assert our_result == max(generate_numbers)
 
-
-# def test_max_number_bad(generate_numbers):
-#     """Sample test function that fails. Uncomment to see."""
-#
-#     our_result = poc_semantic_release.max_number(generate_numbers)
-#     assert our_result == max(generate_numbers) + 1
