@@ -46,7 +46,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/xmnlab/poc_semantic_release',
+    url='https://github.com/osl-incubator/poc_semantic_release',
     version='1.2.2',
     zip_safe=False,
 )

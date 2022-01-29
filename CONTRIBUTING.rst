@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/xmnlab/poc_semantic_release/issues.
+Report bugs at https://github.com/osl-incubator/poc_semantic_release/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/xmnlab/poc_semantic_release/issues.
+The best way to send feedback is to file an issue at https://github.com/osl-incubator/poc_semantic_release/issues.
 
 If you are proposing a feature:
 
@@ -103,7 +103,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 3.6, 3.7 and 3.8, and for PyPy. Check
-   https://travis-ci.org/xmnlab/poc_semantic_release/pull_requests
+   https://travis-ci.org/osl-incubator/poc_semantic_release/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips
