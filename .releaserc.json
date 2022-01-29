@@ -1,14 +1,29 @@
 {
-  "branches": ["main"],
+  "branches": ["master"],
+  "tagFormat": "${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
-      "@semantic-release/github", {
-        "assets": ["dist/**"]
+      "@semantic-release/changelog",
+      {
+        "changelogTitle": "Release Notes\n---",
+        "changelogFile": "CHANGELOG.md"
       }
     ],
-    "@semantic-release/git"
-  ],
-  "preset": "angular"
+    "@semantic-release/exec",
+    [
+      "@semantic-release/github",
+      {
+        "assets": ["dist/*.whl"]
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["pyproject.toml", "CHANGELOG.md", "setup.py"],
+        "message": "chore(release): ${nextRelease.version}"
+      }
+    ]
+  ]
 }
