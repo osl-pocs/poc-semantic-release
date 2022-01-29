@@ -33,8 +33,8 @@ jobs:
           use-mamba: true
           miniforge-variant: Mambaforge
 
-      - name: Generate a dist file
-        run: python setup.py sdist
+      - name: Generate a wheel file
+        run: python setup.py bdist_wheel
 
       - name: Install release dependencies
         run: npm ci
