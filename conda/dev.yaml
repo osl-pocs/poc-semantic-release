@@ -1,0 +1,15 @@
+name: semantic-release
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - pip
+    - flake8
+    - coverage
+    - sphinx
+    - twine
+    - pytest
+    - pytest-runner
+    - pytest-cov
+    - pre-commit
+    - nodejs
