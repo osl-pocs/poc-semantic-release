@@ -1,6 +1,21 @@
 Release Notes
 ---
 
+# [1.2.0](https://github.com/osl-incubator/poc-semantic-release/compare/1.1.9...1.2.0) (2022-02-17)
+
+
+### Bug Fixes
+
+* add poetry to the dependency list ([9d373eb](https://github.com/osl-incubator/poc-semantic-release/commit/9d373ebb5da26197faa7b1a67909f24682179d3b))
+* Fix non closed quote ([e869d2b](https://github.com/osl-incubator/poc-semantic-release/commit/e869d2b22aa6cb9e1dee950a6a7ab9f96f8075d0))
+* Fix release versioning in files in place ([a4fb0a0](https://github.com/osl-incubator/poc-semantic-release/commit/a4fb0a0909aa87ea37967606e3156eb87cd32592))
+* Update version variables in place. ([58be1b7](https://github.com/osl-incubator/poc-semantic-release/commit/58be1b7f6154e1975bb9358b08350dceb0525b5f))
+
+
+### Features
+
+* Update version variables in place. ([8d6346e](https://github.com/osl-incubator/poc-semantic-release/commit/8d6346eaf36e133c907512775fe232c93640fb91))
+
 ## [1.1.9](https://github.com/osl-incubator/poc-semantic-release/compare/1.1.8...1.1.9) (2022-01-29)
 
 
