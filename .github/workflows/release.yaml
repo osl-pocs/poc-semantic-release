@@ -33,20 +33,19 @@ jobs:
           use-mamba: true
           miniforge-variant: Mambaforge
 
-      - name: Generate pkg files
-        run: |
-          python setup.py bdist_wheel
-          python setup.py sdist
-
       - name: Release
+         if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, 'chore(release):')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx --yes \
-            -p semantic-release \
-            -p "@semantic-release/commit-analyzer" \
-            -p "@semantic-release/release-notes-generator" \
-            -p "@semantic-release/changelog" \
-            -p "@semantic-release/github" \
-            -p "@semantic-release/git" \
-            semantic-release --ci
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          semantic-release publish
+          # npx --yes \
+          #   -p semantic-release \
+          #   -p "@semantic-release/commit-analyzer" \
+          #   -p "@semantic-release/release-notes-generator" \
+          #   -p "@semantic-release/changelog" \
+          #   -p "@semantic-release/github" \
+          #   -p "@semantic-release/git" \
+          #   semantic-release --ci

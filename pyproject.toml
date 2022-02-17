@@ -1,7 +1,39 @@
-
 [tool.black]
 line-length = 79
-skip-string-normalization = true
-target-version = ["py34", "py35", "py36", "py37", "py38"]
+target-version = ["py36", "py37", "py38"]
 exclude = "docs/"
 
+[tool.semantic_release]
+version_variable = [
+    "poc_semantic_release/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_pypi = false
+upload_to_release = true
+build_command = "poetry build"
+
+[tool.poetry]
+name = "poc-semantic-release"
+version = "1.1.9"
+description = "PoC for semantic release"
+authors = ["Ivan Ogasawara <ivan.ogasawara@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+arrow = "^1.2.2"
+pandas = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+mypy = "^0.931"
+pre-commit = "^2.17.0"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+python-semantic-release = "^7.24.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
