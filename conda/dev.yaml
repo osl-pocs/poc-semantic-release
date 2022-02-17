@@ -8,6 +8,7 @@ dependencies:
     - coverage
     - sphinx
     - twine
+    - poetry
     - pytest
     - pytest-runner
     - pytest-cov
