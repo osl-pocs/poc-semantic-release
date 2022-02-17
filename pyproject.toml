@@ -6,6 +6,7 @@ exclude = "docs/"
 [tool.semantic_release]
 version_variable = [
     "poc_semantic_release/__init__.py:__version__",
+    "setup.py:version",
     "pyproject.toml:version"
 ]
 branch = "main"
