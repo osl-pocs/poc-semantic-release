@@ -18,7 +18,7 @@ def sum_numbers(number_list: [int]):
     Notes
     -----
     This is NOT good Python, just an example function for tests.
-    
+
     """
     sum_val = 0
     for n in number_list:
@@ -44,7 +44,7 @@ def max_number(number_list: [int]):
     Notes
     -----
     Also not good Python.
-    
+
     """
     cur_max = number_list[0]
     for n in number_list[1:]:

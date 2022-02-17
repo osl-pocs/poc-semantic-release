@@ -30,4 +30,3 @@ def test_max_number(generate_numbers):
 
     our_result = poc_semantic_release.max_number(generate_numbers)
     assert our_result == max(generate_numbers)
-
