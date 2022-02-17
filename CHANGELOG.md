@@ -3,6 +3,10 @@ Release Notes
 
 <!--next-version-placeholder-->
 
+## v1.2.1 (2022-02-17)
+### Fix
+* Fix semantic release config ([`e10a400`](https://github.com/osl-incubator/poc-semantic-release/commit/e10a400877c24a9c18dca45efb5741b15da14f4e))
+
 ## [1.1.9](https://github.com/osl-incubator/poc-semantic-release/compare/1.1.8...1.1.9) (2022-01-29)
 
 
