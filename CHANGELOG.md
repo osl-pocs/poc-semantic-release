@@ -1,6 +1,8 @@
 Release Notes
 ---
 
+<!--next-version-placeholder-->
+
 ## [1.1.9](https://github.com/osl-incubator/poc-semantic-release/compare/1.1.8...1.1.9) (2022-01-29)
 
 

@@ -7,8 +7,8 @@ exclude = "docs/"
 version_variable = [
     "poc_semantic_release/__init__.py:__version__",
     "setup.py:version",
-    "pyproject.toml:version"
 ]
+version_toml = "pyproject.toml:tool.poetry.version"
 branch = "main"
 upload_to_pypi = false
 upload_to_release = true
