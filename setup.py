@@ -21,6 +21,8 @@ with open('requirements_dev.txt', 'r') as f:
     dev_requirements = [l for l in f.read().split('\n') if l.strip()]
 dev_requirements += requirements
 
+version = "1.1.9"
+
 setup(
     author="Ivan Ogasawara",
     author_email='ivan.ogasawara@gmail.com',
@@ -47,6 +49,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/osl-incubator/poc_semantic_release',
-    version='1.2.2',
+    version=version,
     zip_safe=False,
 )
