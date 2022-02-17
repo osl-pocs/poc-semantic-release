@@ -1,6 +1,13 @@
 Release Notes
 ---
 
+## [1.2.1](https://github.com/osl-incubator/poc-semantic-release/compare/1.2.0...1.2.1) (2022-02-17)
+
+
+### Bug Fixes
+
+* Add linter and fix bad style code ([d9e51d0](https://github.com/osl-incubator/poc-semantic-release/commit/d9e51d0534b38c715bbb39118916d6f923efffdd))
+
 # [1.2.0](https://github.com/osl-incubator/poc-semantic-release/compare/1.1.9...1.2.0) (2022-02-17)
 
 
