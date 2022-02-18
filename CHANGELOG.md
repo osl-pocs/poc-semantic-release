@@ -1,6 +1,13 @@
 Release Notes
 ---
 
+## [1.3.2](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.1...1.3.2) (2022-02-18)
+
+
+### Bug Fixes
+
+* Fix release, use the correct asset ([c6ffac7](https://github.com/osl-incubator/poc-semantic-release/commit/c6ffac78d8b65bfb605b1d95d470c18cc4027433))
+
 ## [1.3.1](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.0...1.3.1) (2022-02-18)
 
 
