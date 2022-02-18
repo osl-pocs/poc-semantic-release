@@ -1,6 +1,13 @@
 Release Notes
 ---
 
+## [1.3.1](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.0...1.3.1) (2022-02-18)
+
+
+### Bug Fixes
+
+* Commit __version__ on CI ([f356a73](https://github.com/osl-incubator/poc-semantic-release/commit/f356a732a0c2b936535cafba7420a91b0ecbec4c))
+
 # [1.3.0](https://github.com/osl-incubator/poc-semantic-release/compare/1.2.1...1.3.0) (2022-02-18)
 
 
