@@ -75,7 +75,12 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["pyproject.toml", "CHANGELOG.md", "setup.py"],
+        "assets": [
+	  "pyproject.toml",
+	  "CHANGELOG.md",
+	  "setup.py",
+	  "poc_semantic_release/__version__.py"
+        ],
         "message": "chore(release): ${nextRelease.version}"
       }
     ]
