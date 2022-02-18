@@ -1,6 +1,13 @@
 Release Notes
 ---
 
+# [1.3.0](https://github.com/osl-incubator/poc-semantic-release/compare/1.2.1...1.3.0) (2022-02-18)
+
+
+### Features
+
+* Build using poetry inside the semantic release workflow ([265e004](https://github.com/osl-incubator/poc-semantic-release/commit/265e004ee7574e729a1199ec06abb319b3c203a1))
+
 ## [1.2.1](https://github.com/osl-incubator/poc-semantic-release/compare/1.2.0...1.2.1) (2022-02-17)
 
 
