@@ -38,9 +38,6 @@ jobs:
           pre-commit install
           pre-commit run --all-files
 
-      - name: Build package
-        run: poetry build
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
