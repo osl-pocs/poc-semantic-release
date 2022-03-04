@@ -21,7 +21,7 @@ with open('requirements_dev.txt', 'r') as f:
     dev_requirements = [l for l in f.read().split('\n') if l.strip()]
 dev_requirements += requirements
 
-version = "1.3.2"
+version = "1.3.3"
 
 setup(
     author="Ivan Ogasawara",

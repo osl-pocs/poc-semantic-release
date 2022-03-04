@@ -1,6 +1,13 @@
 Release Notes
 ---
 
+## [1.3.3](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.2...1.3.3) (2022-03-04)
+
+
+### Bug Fixes
+
+* Trigger patch trigger ([f6b70f0](https://github.com/osl-incubator/poc-semantic-release/commit/f6b70f03d52a40653af2877ad2710d53dc61a15d))
+
 ## [1.3.2](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.1...1.3.2) (2022-02-18)
 
 
