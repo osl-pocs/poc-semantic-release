@@ -1,7 +1,5 @@
 {
-  "branches": [
-    "main", "main"
-  ],
+  "branches": ["main"],
   "tagFormat": "${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -66,12 +64,6 @@
       "@semantic-release/exec",
       {
         "prepareCmd": "poetry build"
-      }
-    ],
-    [
-      "@semantic-release/github",
-      {
-        "assets": ["dist/*.whl", "dist/*.tar.gz"]
       }
     ],
     [
