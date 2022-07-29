@@ -1,0 +1,8 @@
+name: poc-semantic-release-talk
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - jupyterlab
+  - nodejs
