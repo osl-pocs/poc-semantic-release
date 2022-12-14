@@ -1,5 +1,6 @@
 # Include this step into your `.github/workflows` directory:
 name: PR Title Linter
+
 on:
   pull_request:
     types: [opened, reopened, edited, synchronize]
