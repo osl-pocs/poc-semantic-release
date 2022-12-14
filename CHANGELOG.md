@@ -1,6 +1,33 @@
 Release Notes
 ---
 
+## [2.0.0](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.4...2.0.0) (2022-12-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ci:** add missing package on release step (#8)
+* **versions:** upgrading black to last version on pre-commit (#7)
+* **flake8:** flake8 does not accept "l" as variable name (#6)
+* **pr-title-check:** add incubator pr title linter to workflows (#5)
+* **sr-preset:** change angular preset to conventionalcommits on releaserc (#3)
+
+### Features
+
+* **pr-title-check:** add incubator pr title linter to workflows ([#5](https://github.com/osl-incubator/poc-semantic-release/issues/5)) ([0f34e28](https://github.com/osl-incubator/poc-semantic-release/commit/0f34e28b23f8f11023d64b41ff2eeec8a4834313))
+* **sr-preset:** change angular preset to conventionalcommits on releaserc ([#3](https://github.com/osl-incubator/poc-semantic-release/issues/3)) ([0b188bd](https://github.com/osl-incubator/poc-semantic-release/commit/0b188bdacb5aee8d3f4443e9e5471e20626f37a9))
+
+
+### Bug Fixes
+
+* **ci:** add missing package on release step ([#8](https://github.com/osl-incubator/poc-semantic-release/issues/8)) ([9a4e730](https://github.com/osl-incubator/poc-semantic-release/commit/9a4e73095fab0223212946e9b2e22d8ca072bec0))
+* **flake8:** flake8 does not accept "l" as variable name ([#6](https://github.com/osl-incubator/poc-semantic-release/issues/6)) ([8b95f26](https://github.com/osl-incubator/poc-semantic-release/commit/8b95f264d1cc36e9660c81242db5ae7b66a844ab))
+
+
+### Miscellaneous Chores
+
+* **versions:** upgrading black to last version on pre-commit ([#7](https://github.com/osl-incubator/poc-semantic-release/issues/7)) ([da0f563](https://github.com/osl-incubator/poc-semantic-release/commit/da0f5635359d568993eb1533cc7dba1f34df702d))
+
 ## [1.3.4](https://github.com/osl-incubator/poc-semantic-release/compare/1.3.3...1.3.4) (2022-03-04)
 
 
