@@ -22,4 +22,3 @@ repos:
           types:
             - python
           exclude: ^docs/
-
